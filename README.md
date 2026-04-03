@@ -65,9 +65,28 @@ bun run seedance2.0.ts --prompt "产品演示" --model pro --duration 10 --ratio
 
 | 模型名 | 模型ID | 说明 |
 |--------|--------|------|
-| pro | doubao-seedance-1-5-pro-251215 | 专业版，高质量 |
+| pro | doubao-seedance-2-0-260128 | Seedance 2.0 Pro 最新版 |
 | fast | doubao-seedance-1-0-fast | 快速版，生成更快 |
 | lite | doubao-seedance-1-0-lite | 轻量版 |
+
+## 完整参数说明
+
+| 参数 | 说明 | 必填 | 默认值 |
+|------|------|------|------|
+| `--guide` | 输出申请开通指南 | 否 | - |
+| `--prompt "text"` | 生成提示词 | 是* | - |
+| `--template name` | 使用内置提示词模板 | 否* | - |
+| `--model pro/fast/lite` | 选择模型 | 否 | `pro` |
+| `--duration N` | 视频时长（秒），支持 5/10/16 | 否 | `5` |
+| `--ratio 9:16/16:9/1:1` | 视频宽高比 | 否 | `9:16` |
+| `--no-audio` | 关闭音频生成 | 否 | 默认开启 |
+| `--watermark` | 开启水印 | 否 | 默认关闭 |
+| `--ref-image URL` | 添加参考图片（可多次使用） | 否 | - |
+| `--ref-video URL` | 添加参考视频（可多次使用） | 否 | - |
+| `--ref-audio URL` | 添加参考音频（可多次使用） | 否 | - |
+| `--output file.mp4` | 输出文件路径 | 否 | 自动生成 |
+
+\* `--prompt` 和 `--template` 必须至少提供一个
 
 ## 申请开通
 
