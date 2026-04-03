@@ -1,0 +1,16 @@
+{
+  "name": "seedance2.0",
+  "version": "1.0.0",
+  "description": "Seedance 2.0 AI Video Generation Skill for OpenClaw",
+  "main": "seedance2.0.ts",
+  "scripts": {
+    "start": "bun seedance2.0.ts",
+    "guide": "bun seedance2.0.ts --guide"
+  },
+  "keywords": ["seedance", "ai-video", "doubao", "volcengine", "openclaw-skill"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
