@@ -1,3 +1,10 @@
+---
+name: seedance2.0
+description: 字节跳动Seedance 2.0 AI视频生成技能，支持文生图、文生视频，提供申请指南和快速生成封装
+version: 1.0.0
+author: Zoe
+---
+
 # Seedance 2.0 - 字节跳动AI视频生成技能
 
 ## 功能描述
